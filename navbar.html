@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+   <link rel="stylesheet" href="navbar.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <a href="#" class="logo">
+                Ajay.Patil
+            </a>
+            
+            <button class="mobile-menu-button" id="mobileMenuButton">
+                ☰
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#aboutcontainer">About</a></li>
+                <li><a href="#main-project">Project</a></li>
+                <li><a href="#skills-container">Skill</a></li>
+                <li><a href="#body6" class="primary-button">Contect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+       <!-- Main Container -->
+<main id="home-section" tabindex="-1" aria-label="Home Section">
+    <section class="intro-text" role="region" aria-labelledby="intro-title" aria-describedby="intro-subtitle">
+      <div id="intro-subtitle" class="intro-subtitle" aria-hidden="true">WE DESIGN &amp; BUILD BRANDS</div>
+      <div class="intro-title">
+        Hi, I am <span class="highlight">Ajay Patil</span><br />
+        I design and build responsive<br />modern websites.
+        
+      </div>
+      <div class="btn-group">
+        <button type="button" class="hire" aria-label="Button to hire me">Hire me</button>
+        <a href="#" class="btn-link" aria-label="Download Curriculum Vitae">Download CV</a>
+      </div>
+    </section>
+
+    <section class="intro-image" aria-label="Profile image of Ajay Patil">
+      <img 
+        src="C:\Users\DELL\OneDrive\Pictures\New folder\WhatsApp Image 2025-02-22 at 09.31.58_74e6239f.jpg" 
+        alt="A young man wearing a white t-shirt, smiling slightly, taking a selfie outdoors under a pergola structure on rocks"
+        onerror="this.onerror=null; this.src='https://placehold.co/400x400?text=Image+Not+Available';"
+      />
+    </section>
+  </main>
+</div>
+ <!-- End of homecontainer -->
+
+  <!-- About Me  coding start-->
+    <div id="aboutcontainer" role="main" aria-label="About Me Section">
+    <section class="image-section" aria-label="Portrait photo of Ajay Patil">
+      <img src="C:\Users\DELL\Downloads\WhatsApp Image 2025-07-10 at 15.26.10_7ec9c79e.jpg" alt="Portrait photo of a young man in a lavender shirt looking down with hands in pockets, standing on wooden floor with beige wall background" onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/904ccba7-6884-46de-b974-b61d7eca17fe.png';" />
+    </section>
+    <section class="content-section">
+      <p class="intro-label">MY INTRODUCTION</p>
+      <h1 class="main-heading">About Me</h1>
+      <p class="description">
+        <p>
+  I'm <strong>Ajay Patil</strong>, a frontend developer based in Maharashtra. I specialize in building responsive, user-friendly websites with clean UI and a mobile-first approach.
+</p>
+
+<p>
+  Proficient in <strong>HTML, CSS,</strong> and <strong>JavaScript</strong>, I’ve developed hands-on projects including a fashion e-commerce website and a personal portfolio.
+</p>
+
+<p>
+  I’m passionate about modern web design and always eager to grow within a dynamic, tech-driven team while continuously expanding my skills.
+</p>
+
+      </p>
+      <ul class="info-list" aria-label="Personal details">
+        <li><span class="info-label">Name:</span><span class="info-value">Ajay Patil</span></li>
+        <li><span class="info-label">Date of Birth:</span><span class="info-value">February 25, 2004</span></li>
+        <li><span class="info-label">Address:</span><span class="info-value">Parola, Maharashtra, India</span></li>
+        <li><span class="info-label">Pin code:</span><span class="info-value">425111</span></li>
+        <li><span class="info-label">Email:</span><span class="info-value">patilaajay452@gmail.com</span></li>
+        <li><span class="info-label">Phone:</span><span class="info-value">+91-93223-4XXXX</span></li>
+      </ul>
+      <div class="badges" aria-label="Interests badges">
+        <span class="badge" title="Music interest" tabindex="0" aria-describedby="desc-music">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>
+          Music
+          <span id="desc-music" class="sr-only">Interest in music</span>
+        </span>
+        <span class="badge" title="Travel interest" tabindex="0" aria-describedby="desc-travel">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+          Travel
+          <span id="desc-travel" class="sr-only">Interest in travel</span>
+        </span>
+        <span class="badge" title="Movie interest" tabindex="0" aria-describedby="desc-movie">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round"/><path d="M9 9h2v2H9zM13 9h2v2h-2zM9 13h6v2H9z"/></svg>
+          Movie
+          <span id="desc-movie" class="sr-only">Interest in movies</span>
+        </span>
+        <span class="badge" title="Sports interest" tabindex="0" aria-describedby="desc-sports">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="#000" stroke-width="2" fill="none"/><path d="M16 8l-8 8"/></svg>
+          Farming
+          <span id="desc-sports" class="sr-only">Interest in Farming</span>
+        </span>
+      </div>
+    </section>
+  </div>
+  <!-- About Me coding end-->
+
+    <!-- my project section start -->
+
+    <div id="main-project">
+  <h1 class="my-project">My Projects</h1>
+  <div class="projects">
+    <div class="project-card">
+      <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot 2025-07-11 180516.png" alt="Project 1">
+      <div class="project-info">
+        <h3>Fashion Store</h3>
+        <p>An e-commerce fashion website with modern UI.</p>
+        <a href="C:\Users\DELL\OneDrive\Desktop\flipkart\flipkar.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot 2025-07-11 174937.png" alt="Project 2">
+      <div class="project-info">
+        <h3>college site</h3>
+        <p>Kisan college parola web site Created.</p>
+        <a href="C:\Users\DELL\OneDrive\Desktop\projects\college.html">View Project</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="C:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot 2025-07-11 175400.png" alt="Project 3">
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>This is my personal portfolio and resume website.</p>
+        <a href="C:\Users\DELL\OneDrive\Desktop\resume\navbar.html">View Project</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- my project section end -->
+
+  <!-- start skills section  -->
+    <h1 class="my-skill">My Skills</h1>
+  
+  <div id="skills-container">
+    <div class="skill-card">
+      <img src=C:\Users\DELL\OneDrive\Desktop\resume\html1-img.png alt="HTML">
+      <p>HTML</p>
+      <p class="percentage">90%</p>
+    </div>
+    <div class="skill-card">
+      <img src=C:\Users\DELL\OneDrive\Desktop\resume\css1-img.svg alt="CSS">
+      <p>CSS</p>
+      <p class="percentage">70%</p>
+    </div>
+    <div class="skill-card">
+      <img src=C:\Users\DELL\OneDrive\Desktop\resume\js-img.png alt="JavaScript">
+      <p>JavaScript</p>
+      <p class="percentage">40%</p>
+    </div>
+    <div class="skill-card">
+      <img src=C:\Users\DELL\OneDrive\Desktop\resume\ISO_C++_Logo.svg alt="C++">
+      <p>C++</p>
+      <p class="percentage">30%</p>
+    </div>
+    <div class="skill-card">
+      <img src="C:\Users\DELL\OneDrive\Desktop\resume\python-img.png" alt="Paython">
+      <p>Paython</p>
+      <p class="percentage">30%</p>
+    </div>
+    <div class="skill-card">
+      <img src=C:\Users\DELL\OneDrive\Desktop\resume\java-img.png alt="Java">
+      <p>Java</p>
+      <p class="percentage">45%</p>
+    </div>
+  </div>
+  <!-- end skill section -->
+
+
+
+  <!-- Start Contact Form section -->
+<div id="body6">
+  <!-- Contact form container -->
+  <div class="container6">
+    <div class="form-container6">
+      
+      <!-- Left section: static message content -->
+      <div class="left-container6">
+        <div class="left-inner-container6">
+          <h3>Let's Chat</h3>
+          <p>Whether you have a query, wish to collaborate on a project, or simply want to say hello — I’d be happy to hear from you..</p>
+          <br>
+          <p>Feel free to get in touch using the contact form below. I’ll get back to you at the earliest!.</p>
+        </div>
+      </div>
+
+      <!-- Right section: the contact form -->
+      <div class="right-container6">
+        <div class="right-inner-container6">
+          <form action="https://sheetdb.io/api/v1/dyf2tmx9nn0fr" method="POST" class="form6">
+            <!-- Headings for different screen sizes -->
+            <h3 class="lg-view6">Contact</h3>
+            <h3 class="sm-view6">Let's Chat</h3>
+
+            <!-- Required note -->
+            <p>* Required</p>
+
+            <!-- Social icons (Font Awesome required externally) --> 
+            <div class="social-container6">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <!-- Form fields -->
+            <input type="text"   name="data[NAME]" placeholder="Name *" required />
+            <input type="email"  name="data[EMAIL]" placeholder="Email *" required />
+            <input type="tel"    name="data[PHONE]" placeholder="Phone *" required />
+            <textarea rows="4"  name="data[MASSAGE]" placeholder="Message"></textarea>
+
+            <!-- Submit button -->
+            <button class="button6" type="submit">Submit</button>
+          </form>
+
+                          <!-- Modal Structure -->
+        <div id="messageModal" class="modal">
+           <div class="modal-content success">
+             <span class="close-button">&times;</span>
+             <h2>Success!</h2>
+             <p>We are delighted to inform you that we received your payment.</p>
+              <button class="modal-button continue">GO back </button>
+        </div>
+           <div class="modal-content error">
+              <span class="close-button">&times;</span>
+              <h2>Error!</h2>
+              <p>Unfortunately, we have an issue with your payment, try again later.</p>
+              <button class="modal-button try-again">Try Again</button>
+             </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Contact Form section -->
+
+       <!--start codin Website footer -->
+       <div id="footurebody">
+         <footer role="contentinfo" aria-label="Website footer">
+    <div class="footer-inner">
+      <div class="logo" aria-label="Company logo">Ajay.Pvt</div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#" tabindex="0">Home</a>
+        <a href="#" tabindex="0">Agent</a>
+        <a href="#" tabindex="0">About</a>
+        <a href="#" tabindex="0">Listing</a>
+        <a href="#" tabindex="0">Blog</a>
+        <a href="#" tabindex="0">Contact</a>
+      </nav>
+      <div class="social-icons" role="list" aria-label="Social media links">
+        <a href="#" role="listitem" aria-label="Twitter" tabindex="0">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+           <path d="M22.675 0h-21.35c-0.733 0-1.325 0.593-1.325 1.324v21.351c0 0.73 0.592 1.325 1.325 1.325h11.495v-9.294h-3.13v-3.622h3.13v-2.672c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.464 0.099 2.795 0.143v3.24l-1.918 0.001c-1.504 0-1.796 0.714-1.796 1.763v2.311h3.59l-0.467 3.622h-3.123v9.294h6.116c0.73 0 1.324-0.594 1.324-1.325v-21.35c0-0.731-0.594-1.324-1.324-1.324z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/its__jay__0_7?igsh=MXdpMmZyM3pidHlrMA==" role="listitem" aria-label="Instagram" tabindex="0">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M7.75 2h8.5c3.169 0 5.75 2.582 5.75 5.75v8.5c0 3.169-2.582 5.75-5.75 5.75h-8.5c-3.169 0-5.75-2.582-5.75-5.75v-8.5c0-3.169 2.582-5.75 5.75-5.75zm4.25 3.081a4.669 4.669 0 1 0 0 9.337 4.669 4.669 0 0 0 0-9.337zm5.25-.581a1.09 1.09 0 1 1 0 2.18 1.09 1.09 0 0 1 0-2.18zM12 9.327a2.675 2.675 0 1 1 0 5.349 2.675 2.675 0 0 1 0-5.349z"/>
+          </svg>
+        </a>
+      </div>
+      <p class="copyright" aria-live="polite">
+        Copyright ©2021 All rights reserved | This template is made with by <a href="#" target="_blank" rel="noopener noreferrer">Ajay Patil</a>
+         </p>
+        </div>
+    </footer>
+    </div>
+
+       <!--end codin Website footer -->
+
+    
+<script src="navbar.js"></script>
+</body>
+</html>
